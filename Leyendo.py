@@ -1,3 +1,5 @@
+//Prueba Python
+
 fichero = open('C:\\Users\\u524073\\Desktop\\Python\\WS.csv')
 print(fichero.read())
 
