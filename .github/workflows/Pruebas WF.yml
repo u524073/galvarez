@@ -1,0 +1,17 @@
+name: Python Package using Conda
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+
+    steps:
+
+    - name: Saludar
+      run: |
+        # $CONDA is an environment variable pointing to the root of the miniconda directory
+        echo "Buenas tardes"
+   
